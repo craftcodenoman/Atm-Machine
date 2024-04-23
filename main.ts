@@ -14,7 +14,7 @@ let pinAnswer = await inquirer.prompt([
     name: "pin",
     type: "number",
     message: chalk.yellow("Enter your pin code"),
-  },
+  }
 ]);
 
 if (pinAnswer.pin === myPin) {
